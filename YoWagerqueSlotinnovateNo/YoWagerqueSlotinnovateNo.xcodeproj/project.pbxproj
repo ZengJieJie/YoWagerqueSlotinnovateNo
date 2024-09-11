@@ -67,6 +67,7 @@
 		C6B018F42C9194C70034613C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018F32C9194C40034613C /* libz.tbd */; };
 		C6B018F72C9195F00034613C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018F62C9195F00034613C /* WebKit.framework */; };
 		C6B018FA2C9197340034613C /* src in Resources */ = {isa = PBXBuildFile; fileRef = C6B018F92C9197340034613C /* src */; };
+		C6B019042C91E7E70034613C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6B019062C91E7E70034613C /* Localizable.strings */; };
 		FF50005E2C91E20400F5BD7A /* NSArray+MSSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5000552C91E20400F5BD7A /* NSArray+MSSafe.m */; };
 		FF50005F2C91E20400F5BD7A /* NSDictionary+MSSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5000572C91E20400F5BD7A /* NSDictionary+MSSafe.m */; };
 		FF5000602C91E20400F5BD7A /* NSMutableSet+MSSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5000592C91E20400F5BD7A /* NSMutableSet+MSSafe.m */; };
@@ -188,6 +189,13 @@
 		C6B018F32C9194C40034613C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		C6B018F62C9195F00034613C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		C6B018F92C9197340034613C /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		C6B018FD2C91E7C10034613C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		C6B018FF2C91E7C20034613C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C6B019002C91E7CC0034613C /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
+		C6B019012C91E7CC0034613C /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C6B019052C91E7E70034613C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C6B019072C91E7E90034613C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C6B019082C91E7EA0034613C /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FBFA847FC6571F0717199325 /* Pods_YoWagerqueSlotinnovateNo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoWagerqueSlotinnovateNo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5000532C91E20400F5BD7A /* MSCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashProtector.h; sourceTree = "<group>"; };
 		FF5000542C91E20400F5BD7A /* NSArray+MSSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MSSafe.h"; sourceTree = "<group>"; };
@@ -359,6 +367,7 @@
 				C6B018082C8EF2190034613C /* YoWagerqueStVCViewController.swift */,
 				C6B0180A2C8EF2240034613C /* YoWagerquePVVVCViewController.swift */,
 				C6B0180C2C8EF2D60034613C /* YoWagerqueSLTVCViewController.swift */,
+				C6B019062C91E7E70034613C /* Localizable.strings */,
 			);
 			path = YoWagerqueSlotinnovateNo;
 			sourceTree = "<group>";
@@ -517,6 +526,8 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				hi,
 			);
 			mainGroup = C6B017B62C8EF0000034613C;
 			productRefGroup = C6B017C02C8EF0000034613C /* Products */;
@@ -559,6 +570,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6B018952C918D230034613C /* jsb-adapter in Resources */,
+				C6B019042C91E7E70034613C /* Localizable.strings in Resources */,
 				C6B0188E2C918D0D0034613C /* assets in Resources */,
 				C6B018932C918D230034613C /* Localizable.strings in Resources */,
 				C6B017D22C8EF0020034613C /* LaunchScreen.storyboard in Resources */,
@@ -702,6 +714,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				C6B017CC2C8EF0000034613C /* Base */,
+				C6B018FD2C91E7C10034613C /* de */,
+				C6B019002C91E7CC0034613C /* hi */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -710,8 +724,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				C6B017D12C8EF0020034613C /* Base */,
+				C6B018FF2C91E7C20034613C /* de */,
+				C6B019012C91E7CC0034613C /* hi */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C6B019062C91E7E70034613C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B019052C91E7E70034613C /* en */,
+				C6B019072C91E7E90034613C /* de */,
+				C6B019082C91E7EA0034613C /* hi */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -722,6 +748,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -803,6 +830,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -883,7 +911,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -935,7 +963,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
