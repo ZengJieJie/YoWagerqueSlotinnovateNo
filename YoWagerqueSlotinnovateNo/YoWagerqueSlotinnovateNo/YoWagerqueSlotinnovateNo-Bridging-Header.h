@@ -3,3 +3,4 @@
 //
 
 #import "YoWagerqueHomeViewController.h"
+#import "MSCrashProtector.h"

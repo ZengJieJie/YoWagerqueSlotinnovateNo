@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="P0N-wy-76c">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="P0N-wy-76c">
     <device id="retina6_12" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -72,7 +72,7 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeE-7a-M0y">
-                                        <rect key="frame" x="440.33333333333337" y="0.0" width="115" height="114.66666666666667"/>
+                                        <rect key="frame" x="440.33333333333337" y="0.0" width="115.00000000000011" height="114.66666666666667"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                     </button>
@@ -381,7 +381,7 @@ By email: help@gmail.com
                                                 <rect key="frame" x="0.0" y="0.0" width="293.66666666666669" height="288"/>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Iw0-fN-5EW">
-                                                <rect key="frame" x="71.333333333333343" y="83.666666666666657" width="151" height="100.66666666666666"/>
+                                                <rect key="frame" x="71.333333333333343" y="83.666666666666657" width="150.99999999999997" height="100.66666666666666"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fwU-9p-nCv">
                                                         <rect key="frame" x="0.0" y="0.0" width="47" height="100.66666666666667"/>
@@ -683,22 +683,22 @@ We believe in continuously evolving our platform, listening to user feedback, an
             </objects>
             <point key="canvasLocation" x="242" y="-1131"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Yo Wagerque Navigation Controller-->
         <scene sceneID="KFV-vk-XPB">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="P0N-wy-76c" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="YoWagerqueNavigationController" automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="P0N-wy-76c" customClass="YoWagerqueNavigationController" customModule="YoWagerqueSlotinnovateNo" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mVF-dZ-ar8">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="fvU-dM-gpY" kind="relationship" relationship="rootViewController" id="wgs-iJ-Vv9"/>
+                        <segue destination="2NP-CK-ezv" kind="relationship" relationship="rootViewController" id="lGW-rm-bAS"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rc1-cg-mwK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-457" y="-265"/>
+            <point key="canvasLocation" x="286" y="-234"/>
         </scene>
         <!--Yo Wagerque StVC View Controller-->
         <scene sceneID="PRb-4E-s1A">
@@ -900,7 +900,7 @@ We believe in continuously evolving our platform, listening to user feedback, an
         <!--Yo WagerqueS Gmae View Controller-->
         <scene sceneID="fIX-jJ-dy3">
             <objects>
-                <viewController storyboardIdentifier="HomeVC" id="2NP-CK-ezv" customClass="YoWagerqueSGmaeViewController" customModule="YoWagerqueSlotinnovateNo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="2NP-CK-ezv" customClass="YoWagerqueSGmaeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j9C-xn-6cE">
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1063,94 +1063,6 @@ We believe in continuously evolving our platform, listening to user feedback, an
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5uY-Tr-Kc8" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="986" y="-233"/>
-        </scene>
-        <!--Yo Wagerque Home View Controller-->
-        <scene sceneID="w1l-0a-SMI">
-            <objects>
-                <viewController id="fvU-dM-gpY" customClass="YoWagerqueHomeViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="AbM-yf-qfD">
-                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="oQS-33-cjt">
-                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
-                            </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uns-bA-DeT">
-                                <rect key="frame" x="59" y="0.0" width="734" height="372"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8e-P2-CzE">
-                                        <rect key="frame" x="30" y="16" width="674" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="OAv-Tq-y51"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="40"/>
-                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yo Wagerque Slot innovate No" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D4M-bf-SqA">
-                                        <rect key="frame" x="30" y="74" width="674" height="40"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="k4J-Mu-a3n"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="30"/>
-                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="FSx-dg-99P">
-                                        <rect key="frame" x="181" y="130" width="372" height="158"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pdu-HS-cNw">
-                                        <rect key="frame" x="257" y="304" width="220" height="60"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="36Q-cB-LGY"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Let's Start" backgroundImage="btn">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="2NP-CK-ezv" kind="show" id="esZ-E0-8f1"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstItem="Pdu-HS-cNw" firstAttribute="centerX" secondItem="Uns-bA-DeT" secondAttribute="centerX" id="7PC-qd-gcE"/>
-                                    <constraint firstItem="W8e-P2-CzE" firstAttribute="top" secondItem="Uns-bA-DeT" secondAttribute="top" constant="16" id="AdS-xn-Vl9"/>
-                                    <constraint firstItem="FSx-dg-99P" firstAttribute="width" secondItem="Uns-bA-DeT" secondAttribute="height" id="Ake-vv-r0b"/>
-                                    <constraint firstItem="FSx-dg-99P" firstAttribute="centerX" secondItem="Uns-bA-DeT" secondAttribute="centerX" id="KgA-hb-fN5"/>
-                                    <constraint firstAttribute="trailing" secondItem="D4M-bf-SqA" secondAttribute="trailing" constant="30" id="P5W-eb-1Qj"/>
-                                    <constraint firstItem="Pdu-HS-cNw" firstAttribute="top" secondItem="FSx-dg-99P" secondAttribute="bottom" constant="16" id="Pke-8m-V0w"/>
-                                    <constraint firstItem="FSx-dg-99P" firstAttribute="top" secondItem="D4M-bf-SqA" secondAttribute="bottom" constant="16" id="SMr-xt-jdp"/>
-                                    <constraint firstAttribute="bottom" secondItem="Pdu-HS-cNw" secondAttribute="bottom" constant="8" id="TO6-Lt-uvB"/>
-                                    <constraint firstItem="W8e-P2-CzE" firstAttribute="leading" secondItem="Uns-bA-DeT" secondAttribute="leading" constant="30" id="VAP-wg-XoM"/>
-                                    <constraint firstItem="D4M-bf-SqA" firstAttribute="leading" secondItem="Uns-bA-DeT" secondAttribute="leading" constant="30" id="b0H-Am-Zy9"/>
-                                    <constraint firstItem="Pdu-HS-cNw" firstAttribute="width" secondItem="Uns-bA-DeT" secondAttribute="width" multiplier="0.3" id="cBI-Vc-Qq9"/>
-                                    <constraint firstItem="D4M-bf-SqA" firstAttribute="top" secondItem="W8e-P2-CzE" secondAttribute="bottom" constant="8" id="qjt-h6-wvW"/>
-                                    <constraint firstAttribute="trailing" secondItem="W8e-P2-CzE" secondAttribute="trailing" constant="30" id="vhy-A2-zEr"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="g0C-bK-VwD"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="oQS-33-cjt" firstAttribute="top" secondItem="AbM-yf-qfD" secondAttribute="top" id="29f-RM-qz7"/>
-                            <constraint firstItem="Uns-bA-DeT" firstAttribute="top" secondItem="g0C-bK-VwD" secondAttribute="top" id="9o7-DH-Mmi"/>
-                            <constraint firstItem="g0C-bK-VwD" firstAttribute="trailing" secondItem="Uns-bA-DeT" secondAttribute="trailing" id="Hd5-Kl-gbi"/>
-                            <constraint firstItem="oQS-33-cjt" firstAttribute="leading" secondItem="AbM-yf-qfD" secondAttribute="leading" id="L4i-DN-5Es"/>
-                            <constraint firstAttribute="trailing" secondItem="oQS-33-cjt" secondAttribute="trailing" id="Zj2-cw-mgu"/>
-                            <constraint firstItem="Uns-bA-DeT" firstAttribute="leading" secondItem="g0C-bK-VwD" secondAttribute="leading" id="gBI-sd-lmz"/>
-                            <constraint firstAttribute="bottom" secondItem="oQS-33-cjt" secondAttribute="bottom" id="rK9-Wq-M0y"/>
-                            <constraint firstItem="g0C-bK-VwD" firstAttribute="bottom" secondItem="Uns-bA-DeT" secondAttribute="bottom" id="xBR-4w-EEa"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="Zkc-Od-Lcj"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="r5o-3h-P0e" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="285" y="-232"/>
         </scene>
         <!--Yo Wagerque Snake Ga View Controller-->
         <scene sceneID="aUQ-s9-WJf">

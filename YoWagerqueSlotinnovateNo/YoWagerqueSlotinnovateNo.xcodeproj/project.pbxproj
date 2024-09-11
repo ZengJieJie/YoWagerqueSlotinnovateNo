@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4BD7D9932CDAB4A8BE4F0940 /* Pods_YoWagerqueSlotinnovateNo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBFA847FC6571F0717199325 /* Pods_YoWagerqueSlotinnovateNo.framework */; };
-		C6B017C42C8EF0000034613C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B017C32C8EF0000034613C /* AppDelegate.m */; };
+		C6B017C42C8EF0000034613C /* YoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B017C32C8EF0000034613C /* YoAppDelegate.m */; };
 		C6B017CA2C8EF0000034613C /* YoWagerqueHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B017C92C8EF0000034613C /* YoWagerqueHomeViewController.m */; };
 		C6B017CD2C8EF0000034613C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B017CB2C8EF0000034613C /* Main.storyboard */; };
 		C6B017CF2C8EF0020034613C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B017CE2C8EF0020034613C /* Assets.xcassets */; };
@@ -27,6 +27,51 @@
 		C6B018092C8EF2190034613C /* YoWagerqueStVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B018082C8EF2190034613C /* YoWagerqueStVCViewController.swift */; };
 		C6B0180B2C8EF2240034613C /* YoWagerquePVVVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B0180A2C8EF2240034613C /* YoWagerquePVVVCViewController.swift */; };
 		C6B0180D2C8EF2D60034613C /* YoWagerqueSLTVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B0180C2C8EF2D60034613C /* YoWagerqueSLTVCViewController.swift */; };
+		C6B0188E2C918D0D0034613C /* assets in Resources */ = {isa = PBXBuildFile; fileRef = C6B0188D2C918D0D0034613C /* assets */; };
+		C6B018932C918D230034613C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6B0188F2C918D1D0034613C /* Localizable.strings */; };
+		C6B018942C918D230034613C /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = C6B018902C918D1F0034613C /* project.json */; };
+		C6B018952C918D230034613C /* jsb-adapter in Resources */ = {isa = PBXBuildFile; fileRef = C6B018912C918D210034613C /* jsb-adapter */; };
+		C6B018962C918D230034613C /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = C6B018922C918D230034613C /* main.js */; };
+		C6B018A02C918D4C0034613C /* SDKWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B018982C918D3E0034613C /* SDKWrapper.m */; };
+		C6B018A12C918D4C0034613C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B0189A2C918D430034613C /* RootViewController.m */; };
+		C6B018A22C918D4C0034613C /* wager.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6B0189B2C918D450034613C /* wager.jpg */; };
+		C6B018A32C918D4C0034613C /* PlatformIosApi.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B0189C2C918D470034613C /* PlatformIosApi.m */; };
+		C6B018B22C918E6A0034613C /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018B12C918E6A0034613C /* AdServices.framework */; };
+		C6B018B42C918E710034613C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018B32C918E700034613C /* AdSupport.framework */; };
+		C6B018B62C918E760034613C /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018B52C918E760034613C /* AppTrackingTransparency.framework */; };
+		C6B018B82C918E7D0034613C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018B72C918E7D0034613C /* AudioToolbox.framework */; };
+		C6B018BA2C918E860034613C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018B92C918E850034613C /* AVFoundation.framework */; };
+		C6B018BC2C918E900034613C /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018BB2C918E8F0034613C /* AVKit.framework */; };
+		C6B018BE2C918EB00034613C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018BD2C918EB00034613C /* CFNetwork.framework */; };
+		C6B018C02C918EC70034613C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018BF2C918EC60034613C /* CoreFoundation.framework */; };
+		C6B018C22C918ECC0034613C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018C12C918ECB0034613C /* CoreGraphics.framework */; };
+		C6B018C42C918ED10034613C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018C32C918ED10034613C /* CoreMedia.framework */; };
+		C6B018C62C918EEB0034613C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018C52C918EEA0034613C /* CoreMotion.framework */; };
+		C6B018C82C918EEF0034613C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018C72C918EEF0034613C /* CoreText.framework */; };
+		C6B018CA2C918EF50034613C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018C92C918EF50034613C /* Foundation.framework */; };
+		C6B018CC2C918EFA0034613C /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018CB2C918EFA0034613C /* GameController.framework */; };
+		C6B018CE2C918F010034613C /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018CD2C918F000034613C /* JavaScriptCore.framework */; };
+		C6B018D02C918F060034613C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018CF2C918F050034613C /* MobileCoreServices.framework */; };
+		C6B018D22C918F0A0034613C /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018D12C918F090034613C /* OpenAL.framework */; };
+		C6B018D42C918F0E0034613C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018D32C918F0E0034613C /* OpenGLES.framework */; };
+		C6B018D62C918F130034613C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018D52C918F130034613C /* QuartzCore.framework */; };
+		C6B018D82C918F190034613C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018D72C918F190034613C /* Security.framework */; };
+		C6B018DA2C918F1E0034613C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018D92C918F1E0034613C /* SystemConfiguration.framework */; };
+		C6B018DC2C918F240034613C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018DB2C918F240034613C /* UIKit.framework */; };
+		C6B018E92C9194250034613C /* jsb_module_register.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6B018E62C9194250034613C /* jsb_module_register.cpp */; };
+		C6B018EA2C9194250034613C /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6B018E82C9194250034613C /* AppDelegate.cpp */; };
+		C6B018EC2C9194920034613C /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018AD2C918D760034613C /* libcocos2d iOS.a */; };
+		C6B018EE2C9194A00034613C /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018ED2C91949D0034613C /* libiconv.tbd */; };
+		C6B018F02C9194B20034613C /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018EF2C9194AF0034613C /* libicucore.A.tbd */; };
+		C6B018F22C9194BD0034613C /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018F12C9194BA0034613C /* libsqlite3.0.tbd */; };
+		C6B018F42C9194C70034613C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018F32C9194C40034613C /* libz.tbd */; };
+		C6B018F72C9195F00034613C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B018F62C9195F00034613C /* WebKit.framework */; };
+		C6B018FA2C9197340034613C /* src in Resources */ = {isa = PBXBuildFile; fileRef = C6B018F92C9197340034613C /* src */; };
+		FF50005E2C91E20400F5BD7A /* NSArray+MSSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5000552C91E20400F5BD7A /* NSArray+MSSafe.m */; };
+		FF50005F2C91E20400F5BD7A /* NSDictionary+MSSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5000572C91E20400F5BD7A /* NSDictionary+MSSafe.m */; };
+		FF5000602C91E20400F5BD7A /* NSMutableSet+MSSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5000592C91E20400F5BD7A /* NSMutableSet+MSSafe.m */; };
+		FF5000612C91E20400F5BD7A /* NSString+MSSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = FF50005B2C91E20400F5BD7A /* NSString+MSSafe.m */; };
+		FF50FCCA2C91D72F00F5BD7A /* YoWagerqueNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF50FCC92C91D72F00F5BD7A /* YoWagerqueNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +89,35 @@
 			remoteGlobalIDString = C6B017BE2C8EF0000034613C;
 			remoteInfo = YoWagerqueSlotinnovateNo;
 		};
+		C6B018AA2C918D760034613C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B018A52C918D760034613C /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1551A33F158F2AB200E66CFE;
+			remoteInfo = "libcocos2d Mac";
+		};
+		C6B018AC2C918D760034613C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B018A52C918D760034613C /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A07A4D641783777C0073F6A7;
+			remoteInfo = "libcocos2d iOS";
+		};
+		C6B018AE2C918D7D0034613C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B018A52C918D760034613C /* cocos2d_libs.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A07A4C241783777C0073F6A7;
+			remoteInfo = "libcocos2d iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5416771D19356B1167B74B2B /* Pods-YoWagerqueSlotinnovateNo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoWagerqueSlotinnovateNo.release.xcconfig"; path = "Target Support Files/Pods-YoWagerqueSlotinnovateNo/Pods-YoWagerqueSlotinnovateNo.release.xcconfig"; sourceTree = "<group>"; };
 		A0B9AEDD32D62E56154A31E2 /* Pods-YoWagerqueSlotinnovateNo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoWagerqueSlotinnovateNo.debug.xcconfig"; path = "Target Support Files/Pods-YoWagerqueSlotinnovateNo/Pods-YoWagerqueSlotinnovateNo.debug.xcconfig"; sourceTree = "<group>"; };
 		C6B017BF2C8EF0000034613C /* YoWagerqueSlotinnovateNo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoWagerqueSlotinnovateNo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6B017C22C8EF0000034613C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C6B017C32C8EF0000034613C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6B017C22C8EF0000034613C /* YoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YoAppDelegate.h; sourceTree = "<group>"; };
+		C6B017C32C8EF0000034613C /* YoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoAppDelegate.m; sourceTree = "<group>"; };
 		C6B017C82C8EF0000034613C /* YoWagerqueHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YoWagerqueHomeViewController.h; sourceTree = "<group>"; };
 		C6B017C92C8EF0000034613C /* YoWagerqueHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoWagerqueHomeViewController.m; sourceTree = "<group>"; };
 		C6B017CC2C8EF0000034613C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,7 +141,64 @@
 		C6B018082C8EF2190034613C /* YoWagerqueStVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoWagerqueStVCViewController.swift; sourceTree = "<group>"; };
 		C6B0180A2C8EF2240034613C /* YoWagerquePVVVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoWagerquePVVVCViewController.swift; sourceTree = "<group>"; };
 		C6B0180C2C8EF2D60034613C /* YoWagerqueSLTVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoWagerqueSLTVCViewController.swift; sourceTree = "<group>"; };
+		C6B0188D2C918D0D0034613C /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		C6B0188F2C918D1D0034613C /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		C6B018902C918D1F0034613C /* project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = project.json; sourceTree = "<group>"; };
+		C6B018912C918D210034613C /* jsb-adapter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "jsb-adapter"; sourceTree = "<group>"; };
+		C6B018922C918D230034613C /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		C6B018972C918D3B0034613C /* SDKDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKDelegate.h; sourceTree = "<group>"; };
+		C6B018982C918D3E0034613C /* SDKWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKWrapper.m; sourceTree = "<group>"; };
+		C6B018992C918D400034613C /* PlatformIosApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformIosApi.h; sourceTree = "<group>"; };
+		C6B0189A2C918D430034613C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C6B0189B2C918D450034613C /* wager.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wager.jpg; sourceTree = "<group>"; };
+		C6B0189C2C918D470034613C /* PlatformIosApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlatformIosApi.m; sourceTree = "<group>"; };
+		C6B0189D2C918D490034613C /* SDKWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKWrapper.h; sourceTree = "<group>"; };
+		C6B0189E2C918D4A0034613C /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		C6B0189F2C918D4C0034613C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C6B018A52C918D760034613C /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "cocos2d-x/build/cocos2d_libs.xcodeproj"; sourceTree = "<group>"; };
+		C6B018B12C918E6A0034613C /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		C6B018B32C918E700034613C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		C6B018B52C918E760034613C /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		C6B018B72C918E7D0034613C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C6B018B92C918E850034613C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C6B018BB2C918E8F0034613C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		C6B018BD2C918EB00034613C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C6B018BF2C918EC60034613C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C6B018C12C918ECB0034613C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C6B018C32C918ED10034613C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C6B018C52C918EEA0034613C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C6B018C72C918EEF0034613C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C6B018C92C918EF50034613C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6B018CB2C918EFA0034613C /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		C6B018CD2C918F000034613C /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		C6B018CF2C918F050034613C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C6B018D12C918F090034613C /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		C6B018D32C918F0E0034613C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C6B018D52C918F130034613C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C6B018D72C918F190034613C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C6B018D92C918F1E0034613C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C6B018DB2C918F240034613C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C6B018E52C9194250034613C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6B018E62C9194250034613C /* jsb_module_register.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsb_module_register.cpp; sourceTree = "<group>"; };
+		C6B018E72C9194250034613C /* NativeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeConfig.h; sourceTree = "<group>"; };
+		C6B018E82C9194250034613C /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+		C6B018ED2C91949D0034613C /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		C6B018EF2C9194AF0034613C /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
+		C6B018F12C9194BA0034613C /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		C6B018F32C9194C40034613C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C6B018F62C9195F00034613C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C6B018F92C9197340034613C /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
 		FBFA847FC6571F0717199325 /* Pods_YoWagerqueSlotinnovateNo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoWagerqueSlotinnovateNo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5000532C91E20400F5BD7A /* MSCrashProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCrashProtector.h; sourceTree = "<group>"; };
+		FF5000542C91E20400F5BD7A /* NSArray+MSSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MSSafe.h"; sourceTree = "<group>"; };
+		FF5000552C91E20400F5BD7A /* NSArray+MSSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MSSafe.m"; sourceTree = "<group>"; };
+		FF5000562C91E20400F5BD7A /* NSDictionary+MSSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MSSafe.h"; sourceTree = "<group>"; };
+		FF5000572C91E20400F5BD7A /* NSDictionary+MSSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MSSafe.m"; sourceTree = "<group>"; };
+		FF5000582C91E20400F5BD7A /* NSMutableSet+MSSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+MSSafe.h"; sourceTree = "<group>"; };
+		FF5000592C91E20400F5BD7A /* NSMutableSet+MSSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+MSSafe.m"; sourceTree = "<group>"; };
+		FF50005A2C91E20400F5BD7A /* NSString+MSSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MSSafe.h"; sourceTree = "<group>"; };
+		FF50005B2C91E20400F5BD7A /* NSString+MSSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MSSafe.m"; sourceTree = "<group>"; };
+		FF50FCC92C91D72F00F5BD7A /* YoWagerqueNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoWagerqueNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +206,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B018D62C918F130034613C /* QuartzCore.framework in Frameworks */,
 				4BD7D9932CDAB4A8BE4F0940 /* Pods_YoWagerqueSlotinnovateNo.framework in Frameworks */,
+				C6B018C42C918ED10034613C /* CoreMedia.framework in Frameworks */,
+				C6B018CC2C918EFA0034613C /* GameController.framework in Frameworks */,
+				C6B018D82C918F190034613C /* Security.framework in Frameworks */,
+				C6B018DC2C918F240034613C /* UIKit.framework in Frameworks */,
+				C6B018B62C918E760034613C /* AppTrackingTransparency.framework in Frameworks */,
+				C6B018DA2C918F1E0034613C /* SystemConfiguration.framework in Frameworks */,
+				C6B018CE2C918F010034613C /* JavaScriptCore.framework in Frameworks */,
+				C6B018F42C9194C70034613C /* libz.tbd in Frameworks */,
+				C6B018F72C9195F00034613C /* WebKit.framework in Frameworks */,
+				C6B018EE2C9194A00034613C /* libiconv.tbd in Frameworks */,
+				C6B018C02C918EC70034613C /* CoreFoundation.framework in Frameworks */,
+				C6B018D42C918F0E0034613C /* OpenGLES.framework in Frameworks */,
+				C6B018BE2C918EB00034613C /* CFNetwork.framework in Frameworks */,
+				C6B018CA2C918EF50034613C /* Foundation.framework in Frameworks */,
+				C6B018F22C9194BD0034613C /* libsqlite3.0.tbd in Frameworks */,
+				C6B018BA2C918E860034613C /* AVFoundation.framework in Frameworks */,
+				C6B018EC2C9194920034613C /* libcocos2d iOS.a in Frameworks */,
+				C6B018B82C918E7D0034613C /* AudioToolbox.framework in Frameworks */,
+				C6B018C62C918EEB0034613C /* CoreMotion.framework in Frameworks */,
+				C6B018BC2C918E900034613C /* AVKit.framework in Frameworks */,
+				C6B018B22C918E6A0034613C /* AdServices.framework in Frameworks */,
+				C6B018C22C918ECC0034613C /* CoreGraphics.framework in Frameworks */,
+				C6B018D02C918F060034613C /* MobileCoreServices.framework in Frameworks */,
+				C6B018F02C9194B20034613C /* libicucore.A.tbd in Frameworks */,
+				C6B018D22C918F0A0034613C /* OpenAL.framework in Frameworks */,
+				C6B018B42C918E710034613C /* AdSupport.framework in Frameworks */,
+				C6B018C82C918EEF0034613C /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +267,33 @@
 		70FF67157E56BF4CF81820E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C6B018F62C9195F00034613C /* WebKit.framework */,
+				C6B018F32C9194C40034613C /* libz.tbd */,
+				C6B018F12C9194BA0034613C /* libsqlite3.0.tbd */,
+				C6B018EF2C9194AF0034613C /* libicucore.A.tbd */,
+				C6B018ED2C91949D0034613C /* libiconv.tbd */,
+				C6B018DB2C918F240034613C /* UIKit.framework */,
+				C6B018D92C918F1E0034613C /* SystemConfiguration.framework */,
+				C6B018D72C918F190034613C /* Security.framework */,
+				C6B018D52C918F130034613C /* QuartzCore.framework */,
+				C6B018D32C918F0E0034613C /* OpenGLES.framework */,
+				C6B018D12C918F090034613C /* OpenAL.framework */,
+				C6B018CF2C918F050034613C /* MobileCoreServices.framework */,
+				C6B018CD2C918F000034613C /* JavaScriptCore.framework */,
+				C6B018CB2C918EFA0034613C /* GameController.framework */,
+				C6B018C92C918EF50034613C /* Foundation.framework */,
+				C6B018C72C918EEF0034613C /* CoreText.framework */,
+				C6B018C52C918EEA0034613C /* CoreMotion.framework */,
+				C6B018C32C918ED10034613C /* CoreMedia.framework */,
+				C6B018C12C918ECB0034613C /* CoreGraphics.framework */,
+				C6B018BF2C918EC60034613C /* CoreFoundation.framework */,
+				C6B018BD2C918EB00034613C /* CFNetwork.framework */,
+				C6B018BB2C918E8F0034613C /* AVKit.framework */,
+				C6B018B92C918E850034613C /* AVFoundation.framework */,
+				C6B018B72C918E7D0034613C /* AudioToolbox.framework */,
+				C6B018B52C918E760034613C /* AppTrackingTransparency.framework */,
+				C6B018B32C918E700034613C /* AdSupport.framework */,
+				C6B018B12C918E6A0034613C /* AdServices.framework */,
 				FBFA847FC6571F0717199325 /* Pods_YoWagerqueSlotinnovateNo.framework */,
 			);
 			name = Frameworks;
@@ -124,6 +302,10 @@
 		C6B017B62C8EF0000034613C = {
 			isa = PBXGroup;
 			children = (
+				C6B018E42C9194250034613C /* Classes */,
+				C6B018A52C918D760034613C /* cocos2d_libs.xcodeproj */,
+				C6B0188D2C918D0D0034613C /* assets */,
+				C6B0187A2C918C920034613C /* Resources */,
 				C6B017C12C8EF0000034613C /* YoWagerqueSlotinnovateNo */,
 				C6B017DD2C8EF0020034613C /* YoWagerqueSlotinnovateNoTests */,
 				C6B017E72C8EF0020034613C /* YoWagerqueSlotinnovateNoUITests */,
@@ -146,11 +328,21 @@
 		C6B017C12C8EF0000034613C /* YoWagerqueSlotinnovateNo */ = {
 			isa = PBXGroup;
 			children = (
+				FF50005C2C91E20400F5BD7A /* MSCrashProtector */,
+				C6B018992C918D400034613C /* PlatformIosApi.h */,
+				C6B0189C2C918D470034613C /* PlatformIosApi.m */,
+				C6B0189E2C918D4A0034613C /* Prefix.pch */,
+				C6B0189F2C918D4C0034613C /* RootViewController.h */,
+				C6B0189A2C918D430034613C /* RootViewController.m */,
+				C6B018972C918D3B0034613C /* SDKDelegate.h */,
+				C6B0189D2C918D490034613C /* SDKWrapper.h */,
+				C6B018982C918D3E0034613C /* SDKWrapper.m */,
+				C6B0189B2C918D450034613C /* wager.jpg */,
 				C6B017FD2C8EF1650034613C /* Wagerqueslot_innovate.xcdatamodeld */,
 				C6B017FB2C8EF15F0034613C /* spin.wav */,
 				C6B017F92C8EF1570034613C /* Extention.swift */,
-				C6B017C22C8EF0000034613C /* AppDelegate.h */,
-				C6B017C32C8EF0000034613C /* AppDelegate.m */,
+				C6B017C22C8EF0000034613C /* YoAppDelegate.h */,
+				C6B017C32C8EF0000034613C /* YoAppDelegate.m */,
 				C6B017C82C8EF0000034613C /* YoWagerqueHomeViewController.h */,
 				C6B017C92C8EF0000034613C /* YoWagerqueHomeViewController.m */,
 				C6B017CB2C8EF0000034613C /* Main.storyboard */,
@@ -159,6 +351,7 @@
 				C6B017D32C8EF0020034613C /* Info.plist */,
 				C6B017D42C8EF0020034613C /* main.m */,
 				C6B017F82C8EF1560034613C /* YoWagerqueSlotinnovateNo-Bridging-Header.h */,
+				FF50FCC92C91D72F00F5BD7A /* YoWagerqueNavigationController.swift */,
 				C6B018002C8EF1E60034613C /* YoWagerqueSnakeGaViewController.swift */,
 				C6B018022C8EF1F40034613C /* YoWagerqueSGmaeViewController.swift */,
 				C6B018042C8EF2010034613C /* YoWagerqueABVCViewController.swift */,
@@ -187,6 +380,54 @@
 			path = YoWagerqueSlotinnovateNoUITests;
 			sourceTree = "<group>";
 		};
+		C6B0187A2C918C920034613C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6B018F92C9197340034613C /* src */,
+				C6B018912C918D210034613C /* jsb-adapter */,
+				C6B0188F2C918D1D0034613C /* Localizable.strings */,
+				C6B018922C918D230034613C /* main.js */,
+				C6B018902C918D1F0034613C /* project.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C6B018A62C918D760034613C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B018AB2C918D760034613C /* libcocos2d Mac.a */,
+				C6B018AD2C918D760034613C /* libcocos2d iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B018E42C9194250034613C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C6B018E52C9194250034613C /* AppDelegate.h */,
+				C6B018E62C9194250034613C /* jsb_module_register.cpp */,
+				C6B018E72C9194250034613C /* NativeConfig.h */,
+				C6B018E82C9194250034613C /* AppDelegate.cpp */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FF50005C2C91E20400F5BD7A /* MSCrashProtector */ = {
+			isa = PBXGroup;
+			children = (
+				FF5000532C91E20400F5BD7A /* MSCrashProtector.h */,
+				FF5000542C91E20400F5BD7A /* NSArray+MSSafe.h */,
+				FF5000552C91E20400F5BD7A /* NSArray+MSSafe.m */,
+				FF5000562C91E20400F5BD7A /* NSDictionary+MSSafe.h */,
+				FF5000572C91E20400F5BD7A /* NSDictionary+MSSafe.m */,
+				FF5000582C91E20400F5BD7A /* NSMutableSet+MSSafe.h */,
+				FF5000592C91E20400F5BD7A /* NSMutableSet+MSSafe.m */,
+				FF50005A2C91E20400F5BD7A /* NSString+MSSafe.h */,
+				FF50005B2C91E20400F5BD7A /* NSString+MSSafe.m */,
+			);
+			path = MSCrashProtector;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,6 +444,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C6B018AF2C918D7D0034613C /* PBXTargetDependency */,
 			);
 			name = YoWagerqueSlotinnovateNo;
 			productName = YoWagerqueSlotinnovateNo;
@@ -279,6 +521,12 @@
 			mainGroup = C6B017B62C8EF0000034613C;
 			productRefGroup = C6B017C02C8EF0000034613C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C6B018A62C918D760034613C /* Products */;
+					ProjectRef = C6B018A52C918D760034613C /* cocos2d_libs.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C6B017BE2C8EF0000034613C /* YoWagerqueSlotinnovateNo */,
@@ -288,15 +536,39 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		C6B018AB2C918D760034613C /* libcocos2d Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d Mac.a";
+			remoteRef = C6B018AA2C918D760034613C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6B018AD2C918D760034613C /* libcocos2d iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d iOS.a";
+			remoteRef = C6B018AC2C918D760034613C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		C6B017BD2C8EF0000034613C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B018952C918D230034613C /* jsb-adapter in Resources */,
+				C6B0188E2C918D0D0034613C /* assets in Resources */,
+				C6B018932C918D230034613C /* Localizable.strings in Resources */,
 				C6B017D22C8EF0020034613C /* LaunchScreen.storyboard in Resources */,
+				C6B018A22C918D4C0034613C /* wager.jpg in Resources */,
 				C6B017CF2C8EF0020034613C /* Assets.xcassets in Resources */,
 				C6B017FC2C8EF15F0034613C /* spin.wav in Resources */,
+				C6B018FA2C9197340034613C /* src in Resources */,
+				C6B018962C918D230034613C /* main.js in Resources */,
 				C6B017CD2C8EF0000034613C /* Main.storyboard in Resources */,
+				C6B018942C918D230034613C /* project.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,18 +635,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5000602C91E20400F5BD7A /* NSMutableSet+MSSafe.m in Sources */,
+				FF50FCCA2C91D72F00F5BD7A /* YoWagerqueNavigationController.swift in Sources */,
+				C6B018E92C9194250034613C /* jsb_module_register.cpp in Sources */,
+				C6B018A12C918D4C0034613C /* RootViewController.m in Sources */,
+				C6B018EA2C9194250034613C /* AppDelegate.cpp in Sources */,
 				C6B017FF2C8EF1650034613C /* Wagerqueslot_innovate.xcdatamodeld in Sources */,
 				C6B017FA2C8EF1570034613C /* Extention.swift in Sources */,
 				C6B0180D2C8EF2D60034613C /* YoWagerqueSLTVCViewController.swift in Sources */,
+				FF5000612C91E20400F5BD7A /* NSString+MSSafe.m in Sources */,
 				C6B017CA2C8EF0000034613C /* YoWagerqueHomeViewController.m in Sources */,
-				C6B017C42C8EF0000034613C /* AppDelegate.m in Sources */,
+				C6B017C42C8EF0000034613C /* YoAppDelegate.m in Sources */,
+				FF50005F2C91E20400F5BD7A /* NSDictionary+MSSafe.m in Sources */,
 				C6B0180B2C8EF2240034613C /* YoWagerquePVVVCViewController.swift in Sources */,
 				C6B018012C8EF1E60034613C /* YoWagerqueSnakeGaViewController.swift in Sources */,
+				FF50005E2C91E20400F5BD7A /* NSArray+MSSafe.m in Sources */,
+				C6B018A02C918D4C0034613C /* SDKWrapper.m in Sources */,
 				C6B018092C8EF2190034613C /* YoWagerqueStVCViewController.swift in Sources */,
 				C6B018052C8EF2010034613C /* YoWagerqueABVCViewController.swift in Sources */,
 				C6B018072C8EF20B0034613C /* YoWagerqueFBBKBCViewController.swift in Sources */,
 				C6B018032C8EF1F40034613C /* YoWagerqueSGmaeViewController.swift in Sources */,
 				C6B017D52C8EF0020034613C /* main.m in Sources */,
+				C6B018A32C918D4C0034613C /* PlatformIosApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +689,11 @@
 			isa = PBXTargetDependency;
 			target = C6B017BE2C8EF0000034613C /* YoWagerqueSlotinnovateNo */;
 			targetProxy = C6B017E52C8EF0020034613C /* PBXContainerItemProxy */;
+		};
+		C6B018AF2C918D7D0034613C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libcocos2d iOS";
+			targetProxy = C6B018AE2C918D7D0034613C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -468,8 +755,9 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = c17;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -488,6 +776,25 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/cocos2d-x",
+					"$(SRCROOT)/cocos2d-x/cocos",
+					"$(SRCROOT)/cocos2d-x/cocos/base",
+					"$(SRCROOT)/cocos2d-x/cocos/physics",
+					"$(SRCROOT)/cocos2d-x/cocos/math/kazmath",
+					"$(SRCROOT)/cocos2d-x/cocos/2d",
+					"$(SRCROOT)/cocos2d-x/cocos/gui",
+					"$(SRCROOT)/cocos2d-x/cocos/network",
+					"$(SRCROOT)/cocos2d-x/cocos/audio/include",
+					"$(SRCROOT)/cocos2d-x/cocos/editor-support",
+					"$(SRCROOT)/cocos2d-x/cocos/scripting/js-bindings/manual",
+					"$(SRCROOT)/cocos2d-x/external/chipmunk/include/chipmunk",
+					"$(SRCROOT)/cocos2d-x/external/mac/include/v8",
+					"$(SRCROOT)/cocos2d-x/extensions",
+					"$(SRCROOT)/cocos2d-x/cocos/scripting/js-bindings/auto",
+					"$(SRCROOT)/cocos2d-x/external",
+					"$(SRCROOT)/cocos2d-x/external/sources",
+				);
 			};
 			name = Debug;
 		};
@@ -529,7 +836,8 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = c17;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -542,6 +850,25 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/cocos2d-x",
+					"$(SRCROOT)/cocos2d-x/cocos",
+					"$(SRCROOT)/cocos2d-x/cocos/base",
+					"$(SRCROOT)/cocos2d-x/cocos/physics",
+					"$(SRCROOT)/cocos2d-x/cocos/math/kazmath",
+					"$(SRCROOT)/cocos2d-x/cocos/2d",
+					"$(SRCROOT)/cocos2d-x/cocos/gui",
+					"$(SRCROOT)/cocos2d-x/cocos/network",
+					"$(SRCROOT)/cocos2d-x/cocos/audio/include",
+					"$(SRCROOT)/cocos2d-x/cocos/editor-support",
+					"$(SRCROOT)/cocos2d-x/cocos/scripting/js-bindings/manual",
+					"$(SRCROOT)/cocos2d-x/external/chipmunk/include/chipmunk",
+					"$(SRCROOT)/cocos2d-x/external/mac/include/v8",
+					"$(SRCROOT)/cocos2d-x/extensions",
+					"$(SRCROOT)/cocos2d-x/cocos/scripting/js-bindings/auto",
+					"$(SRCROOT)/cocos2d-x/external",
+					"$(SRCROOT)/cocos2d-x/external/sources",
+				);
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -550,26 +877,32 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A0B9AEDD32D62E56154A31E2 /* Pods-YoWagerqueSlotinnovateNo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YoWagerqueSlotinnovateNo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Yo Wagerque Slot innovate No";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.YoWagerque.YoWagerqueSlotinnovateNo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -581,6 +914,14 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/cocos2d-x/cocos/platform/ios",
+					"$(SRCROOT)/cocos2d-x/plugin/jsbindings/auto",
+					"$(SRCROOT)/cocos2d-x/plugin/jsbindings/manual",
+					"$(SRCROOT)/cocos2d-x/external/ios/include",
+					"$(SRCROOT)/cocos2d-x/external/ios/include/spidermonkey",
+				);
 			};
 			name = Debug;
 		};
@@ -588,26 +929,31 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5416771D19356B1167B74B2B /* Pods-YoWagerqueSlotinnovateNo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YoWagerqueSlotinnovateNo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Yo Wagerque Slot innovate No";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.YoWagerque.YoWagerqueSlotinnovateNo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -618,6 +964,14 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "YoWagerqueSlotinnovateNo/YoWagerqueSlotinnovateNo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/cocos2d-x/cocos/platform/ios",
+					"$(SRCROOT)/cocos2d-x/plugin/jsbindings/auto",
+					"$(SRCROOT)/cocos2d-x/plugin/jsbindings/manual",
+					"$(SRCROOT)/cocos2d-x/external/ios/include",
+					"$(SRCROOT)/cocos2d-x/external/ios/include/spidermonkey",
+				);
 			};
 			name = Release;
 		};
