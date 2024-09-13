@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BD7D9932CDAB4A8BE4F0940 /* Pods_YoWagerqueSlotinnovateNo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBFA847FC6571F0717199325 /* Pods_YoWagerqueSlotinnovateNo.framework */; };
+		C6B017C42C8EF0000034613C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B017C32C8EF0000034613C /* AppDelegate.m */; };
+		C6B017CD2C8EF0000034613C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B017CB2C8EF0000034613C /* Main.storyboard */; };
+		C6B017CF2C8EF0020034613C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B017CE2C8EF0020034613C /* Assets.xcassets */; };
+		C6B017D22C8EF0020034613C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B017D02C8EF0020034613C /* LaunchScreen.storyboard */; };
+		C6B017D52C8EF0020034613C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B017D42C8EF0020034613C /* main.m */; };
+		C6B017DF2C8EF0020034613C /* YoWagerqueSlotinnovateNoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B017DE2C8EF0020034613C /* YoWagerqueSlotinnovateNoTests.m */; };
+		C6B017E92C8EF0020034613C /* YoWagerqueSlotinnovateNoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B017E82C8EF0020034613C /* YoWagerqueSlotinnovateNoUITests.m */; };
+		C6B017EB2C8EF0020034613C /* YoWagerqueSlotinnovateNoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B017EA2C8EF0020034613C /* YoWagerqueSlotinnovateNoUITestsLaunchTests.m */; };
+		C6B017FA2C8EF1570034613C /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B017F92C8EF1570034613C /* Extention.swift */; };
+		C6B017FC2C8EF15F0034613C /* spin.wav in Resources */ = {isa = PBXBuildFile; fileRef = C6B017FB2C8EF15F0034613C /* spin.wav */; };
+		C6B018012C8EF1E60034613C /* YoWagerqueSnakeGaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B018002C8EF1E60034613C /* YoWagerqueSnakeGaViewController.swift */; };
+		C6B018032C8EF1F40034613C /* YoWagerqueSGmaeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B018022C8EF1F40034613C /* YoWagerqueSGmaeViewController.swift */; };
+		C6B018052C8EF2010034613C /* YoWagerqueABVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B018042C8EF2010034613C /* YoWagerqueABVCViewController.swift */; };
+		C6B018072C8EF20B0034613C /* YoWagerqueFBBKBCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B018062C8EF20B0034613C /* YoWagerqueFBBKBCViewController.swift */; };
+		C6B018092C8EF2190034613C /* YoWagerqueStVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B018082C8EF2190034613C /* YoWagerqueStVCViewController.swift */; };
+		C6B0180D2C8EF2D60034613C /* YoWagerqueSLTVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B0180C2C8EF2D60034613C /* YoWagerqueSLTVCViewController.swift */; };
+		FF9B857A2C942E4A00304C66 /* YoWagerqueNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9B85792C942E4A00304C66 /* YoWagerqueNavigationController.m */; };
+		FF9B857D2C942FB600304C66 /* YoWagerquePVVVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9B857C2C942FB600304C66 /* YoWagerquePVVVCViewController.m */; };
+		FF9B85862C94303E00304C66 /* UIViewController+Extentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9B85802C94303D00304C66 /* UIViewController+Extentsion.m */; };
+		FF9B85872C94303E00304C66 /* YonoAdsBannerManagers.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9B85812C94303D00304C66 /* YonoAdsBannerManagers.m */; };
+		FF9B85892C94303E00304C66 /* YonoNetReachManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9B85852C94303D00304C66 /* YonoNetReachManager.m */; };
+		FF9B858D2C94328900304C66 /* YoWagerqueHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9B858C2C94328900304C66 /* YoWagerqueHomeViewController.swift */; };
+		FF9B858F2C9433CD00304C66 /* YoWagerqueGameHallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9B858E2C9433CD00304C66 /* YoWagerqueGameHallViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6B017DB2C8EF0020034613C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B017B72C8EF0000034613C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B017BE2C8EF0000034613C;
+			remoteInfo = YoWagerqueSlotinnovateNo;
+		};
+		C6B017E52C8EF0020034613C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6B017B72C8EF0000034613C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B017BE2C8EF0000034613C;
+			remoteInfo = YoWagerqueSlotinnovateNo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5416771D19356B1167B74B2B /* Pods-YoWagerqueSlotinnovateNo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoWagerqueSlotinnovateNo.release.xcconfig"; path = "Target Support Files/Pods-YoWagerqueSlotinnovateNo/Pods-YoWagerqueSlotinnovateNo.release.xcconfig"; sourceTree = "<group>"; };
+		A0B9AEDD32D62E56154A31E2 /* Pods-YoWagerqueSlotinnovateNo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoWagerqueSlotinnovateNo.debug.xcconfig"; path = "Target Support Files/Pods-YoWagerqueSlotinnovateNo/Pods-YoWagerqueSlotinnovateNo.debug.xcconfig"; sourceTree = "<group>"; };
+		C6B017BF2C8EF0000034613C /* YoWagerqueSlotinnovateNo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoWagerqueSlotinnovateNo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B017C22C8EF0000034613C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6B017C32C8EF0000034613C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6B017CC2C8EF0000034613C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6B017CE2C8EF0020034613C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6B017D12C8EF0020034613C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6B017D32C8EF0020034613C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6B017D42C8EF0020034613C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6B017DA2C8EF0020034613C /* YoWagerqueSlotinnovateNoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoWagerqueSlotinnovateNoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B017DE2C8EF0020034613C /* YoWagerqueSlotinnovateNoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoWagerqueSlotinnovateNoTests.m; sourceTree = "<group>"; };
+		C6B017E42C8EF0020034613C /* YoWagerqueSlotinnovateNoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoWagerqueSlotinnovateNoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B017E82C8EF0020034613C /* YoWagerqueSlotinnovateNoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoWagerqueSlotinnovateNoUITests.m; sourceTree = "<group>"; };
+		C6B017EA2C8EF0020034613C /* YoWagerqueSlotinnovateNoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoWagerqueSlotinnovateNoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		C6B017F82C8EF1560034613C /* YoWagerqueSlotinnovateNo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YoWagerqueSlotinnovateNo-Bridging-Header.h"; sourceTree = "<group>"; };
+		C6B017F92C8EF1570034613C /* Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		C6B017FB2C8EF15F0034613C /* spin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spin.wav; sourceTree = "<group>"; };
+		C6B018002C8EF1E60034613C /* YoWagerqueSnakeGaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoWagerqueSnakeGaViewController.swift; sourceTree = "<group>"; };
+		C6B018022C8EF1F40034613C /* YoWagerqueSGmaeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoWagerqueSGmaeViewController.swift; sourceTree = "<group>"; };
+		C6B018042C8EF2010034613C /* YoWagerqueABVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoWagerqueABVCViewController.swift; sourceTree = "<group>"; };
+		C6B018062C8EF20B0034613C /* YoWagerqueFBBKBCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoWagerqueFBBKBCViewController.swift; sourceTree = "<group>"; };
+		C6B018082C8EF2190034613C /* YoWagerqueStVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoWagerqueStVCViewController.swift; sourceTree = "<group>"; };
+		C6B0180C2C8EF2D60034613C /* YoWagerqueSLTVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoWagerqueSLTVCViewController.swift; sourceTree = "<group>"; };
+		FBFA847FC6571F0717199325 /* Pods_YoWagerqueSlotinnovateNo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoWagerqueSlotinnovateNo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9B85782C942E4A00304C66 /* YoWagerqueNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YoWagerqueNavigationController.h; sourceTree = "<group>"; };
+		FF9B85792C942E4A00304C66 /* YoWagerqueNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoWagerqueNavigationController.m; sourceTree = "<group>"; };
+		FF9B857B2C942FB600304C66 /* YoWagerquePVVVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YoWagerquePVVVCViewController.h; sourceTree = "<group>"; };
+		FF9B857C2C942FB600304C66 /* YoWagerquePVVVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoWagerquePVVVCViewController.m; sourceTree = "<group>"; };
+		FF9B857E2C94303D00304C66 /* YonoAdsBannerManagers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YonoAdsBannerManagers.h; sourceTree = "<group>"; };
+		FF9B857F2C94303D00304C66 /* YonoNetReachManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YonoNetReachManager.h; sourceTree = "<group>"; };
+		FF9B85802C94303D00304C66 /* UIViewController+Extentsion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extentsion.m"; sourceTree = "<group>"; };
+		FF9B85812C94303D00304C66 /* YonoAdsBannerManagers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YonoAdsBannerManagers.m; sourceTree = "<group>"; };
+		FF9B85842C94303D00304C66 /* UIViewController+Extentsion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extentsion.h"; sourceTree = "<group>"; };
+		FF9B85852C94303D00304C66 /* YonoNetReachManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YonoNetReachManager.m; sourceTree = "<group>"; };
+		FF9B858C2C94328900304C66 /* YoWagerqueHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoWagerqueHomeViewController.swift; sourceTree = "<group>"; };
+		FF9B858E2C9433CD00304C66 /* YoWagerqueGameHallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoWagerqueGameHallViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6B017BC2C8EF0000034613C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD7D9932CDAB4A8BE4F0940 /* Pods_YoWagerqueSlotinnovateNo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B017D72C8EF0020034613C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B017E12C8EF0020034613C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F622463B98444F6840F0191 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0B9AEDD32D62E56154A31E2 /* Pods-YoWagerqueSlotinnovateNo.debug.xcconfig */,
+				5416771D19356B1167B74B2B /* Pods-YoWagerqueSlotinnovateNo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		70FF67157E56BF4CF81820E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBFA847FC6571F0717199325 /* Pods_YoWagerqueSlotinnovateNo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6B017B62C8EF0000034613C = {
+			isa = PBXGroup;
+			children = (
+				C6B017C12C8EF0000034613C /* YoWagerqueSlotinnovateNo */,
+				C6B017DD2C8EF0020034613C /* YoWagerqueSlotinnovateNoTests */,
+				C6B017E72C8EF0020034613C /* YoWagerqueSlotinnovateNoUITests */,
+				C6B017C02C8EF0000034613C /* Products */,
+				5F622463B98444F6840F0191 /* Pods */,
+				70FF67157E56BF4CF81820E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6B017C02C8EF0000034613C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B017BF2C8EF0000034613C /* YoWagerqueSlotinnovateNo.app */,
+				C6B017DA2C8EF0020034613C /* YoWagerqueSlotinnovateNoTests.xctest */,
+				C6B017E42C8EF0020034613C /* YoWagerqueSlotinnovateNoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B017C12C8EF0000034613C /* YoWagerqueSlotinnovateNo */ = {
+			isa = PBXGroup;
+			children = (
+				C6B017FB2C8EF15F0034613C /* spin.wav */,
+				C6B017F92C8EF1570034613C /* Extention.swift */,
+				C6B017C22C8EF0000034613C /* AppDelegate.h */,
+				C6B017C32C8EF0000034613C /* AppDelegate.m */,
+				FF9B85782C942E4A00304C66 /* YoWagerqueNavigationController.h */,
+				FF9B85792C942E4A00304C66 /* YoWagerqueNavigationController.m */,
+				FF9B858C2C94328900304C66 /* YoWagerqueHomeViewController.swift */,
+				FF9B858E2C9433CD00304C66 /* YoWagerqueGameHallViewController.swift */,
+				C6B017CB2C8EF0000034613C /* Main.storyboard */,
+				C6B017CE2C8EF0020034613C /* Assets.xcassets */,
+				C6B017D02C8EF0020034613C /* LaunchScreen.storyboard */,
+				C6B017D32C8EF0020034613C /* Info.plist */,
+				C6B017D42C8EF0020034613C /* main.m */,
+				C6B017F82C8EF1560034613C /* YoWagerqueSlotinnovateNo-Bridging-Header.h */,
+				C6B018002C8EF1E60034613C /* YoWagerqueSnakeGaViewController.swift */,
+				C6B018022C8EF1F40034613C /* YoWagerqueSGmaeViewController.swift */,
+				C6B018042C8EF2010034613C /* YoWagerqueABVCViewController.swift */,
+				C6B018062C8EF20B0034613C /* YoWagerqueFBBKBCViewController.swift */,
+				C6B018082C8EF2190034613C /* YoWagerqueStVCViewController.swift */,
+				C6B0180C2C8EF2D60034613C /* YoWagerqueSLTVCViewController.swift */,
+				FF9B857B2C942FB600304C66 /* YoWagerquePVVVCViewController.h */,
+				FF9B857C2C942FB600304C66 /* YoWagerquePVVVCViewController.m */,
+				FF9B857E2C94303D00304C66 /* YonoAdsBannerManagers.h */,
+				FF9B85812C94303D00304C66 /* YonoAdsBannerManagers.m */,
+				FF9B857F2C94303D00304C66 /* YonoNetReachManager.h */,
+				FF9B85852C94303D00304C66 /* YonoNetReachManager.m */,
+				FF9B85842C94303D00304C66 /* UIViewController+Extentsion.h */,
+				FF9B85802C94303D00304C66 /* UIViewController+Extentsion.m */,
+			);
+			path = YoWagerqueSlotinnovateNo;
+			sourceTree = "<group>";
+		};
+		C6B017DD2C8EF0020034613C /* YoWagerqueSlotinnovateNoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B017DE2C8EF0020034613C /* YoWagerqueSlotinnovateNoTests.m */,
+			);
+			path = YoWagerqueSlotinnovateNoTests;
+			sourceTree = "<group>";
+		};
+		C6B017E72C8EF0020034613C /* YoWagerqueSlotinnovateNoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B017E82C8EF0020034613C /* YoWagerqueSlotinnovateNoUITests.m */,
+				C6B017EA2C8EF0020034613C /* YoWagerqueSlotinnovateNoUITestsLaunchTests.m */,
+			);
+			path = YoWagerqueSlotinnovateNoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6B017BE2C8EF0000034613C /* YoWagerqueSlotinnovateNo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B017EE2C8EF0020034613C /* Build configuration list for PBXNativeTarget "YoWagerqueSlotinnovateNo" */;
+			buildPhases = (
+				84C4F50A0147AF4D56212DA6 /* [CP] Check Pods Manifest.lock */,
+				C6B017BB2C8EF0000034613C /* Sources */,
+				C6B017BC2C8EF0000034613C /* Frameworks */,
+				C6B017BD2C8EF0000034613C /* Resources */,
+				E8FFFF708F5BE346588FE8BA /* [CP] Embed Pods Frameworks */,
+				00C9C42F6790DA988E0E692A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoWagerqueSlotinnovateNo;
+			productName = YoWagerqueSlotinnovateNo;
+			productReference = C6B017BF2C8EF0000034613C /* YoWagerqueSlotinnovateNo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6B017D92C8EF0020034613C /* YoWagerqueSlotinnovateNoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B017F12C8EF0020034613C /* Build configuration list for PBXNativeTarget "YoWagerqueSlotinnovateNoTests" */;
+			buildPhases = (
+				C6B017D62C8EF0020034613C /* Sources */,
+				C6B017D72C8EF0020034613C /* Frameworks */,
+				C6B017D82C8EF0020034613C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B017DC2C8EF0020034613C /* PBXTargetDependency */,
+			);
+			name = YoWagerqueSlotinnovateNoTests;
+			productName = YoWagerqueSlotinnovateNoTests;
+			productReference = C6B017DA2C8EF0020034613C /* YoWagerqueSlotinnovateNoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6B017E32C8EF0020034613C /* YoWagerqueSlotinnovateNoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B017F42C8EF0020034613C /* Build configuration list for PBXNativeTarget "YoWagerqueSlotinnovateNoUITests" */;
+			buildPhases = (
+				C6B017E02C8EF0020034613C /* Sources */,
+				C6B017E12C8EF0020034613C /* Frameworks */,
+				C6B017E22C8EF0020034613C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6B017E62C8EF0020034613C /* PBXTargetDependency */,
+			);
+			name = YoWagerqueSlotinnovateNoUITests;
+			productName = YoWagerqueSlotinnovateNoUITests;
+			productReference = C6B017E42C8EF0020034613C /* YoWagerqueSlotinnovateNoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6B017B72C8EF0000034613C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C6B017BE2C8EF0000034613C = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+					C6B017D92C8EF0020034613C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C6B017BE2C8EF0000034613C;
+					};
+					C6B017E32C8EF0020034613C = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C6B017BE2C8EF0000034613C;
+					};
+				};
+			};
+			buildConfigurationList = C6B017BA2C8EF0000034613C /* Build configuration list for PBXProject "YoWagerqueSlotinnovateNo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6B017B62C8EF0000034613C;
+			productRefGroup = C6B017C02C8EF0000034613C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6B017BE2C8EF0000034613C /* YoWagerqueSlotinnovateNo */,
+				C6B017D92C8EF0020034613C /* YoWagerqueSlotinnovateNoTests */,
+				C6B017E32C8EF0020034613C /* YoWagerqueSlotinnovateNoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6B017BD2C8EF0000034613C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B017D22C8EF0020034613C /* LaunchScreen.storyboard in Resources */,
+				C6B017CF2C8EF0020034613C /* Assets.xcassets in Resources */,
+				C6B017FC2C8EF15F0034613C /* spin.wav in Resources */,
+				C6B017CD2C8EF0000034613C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B017D82C8EF0020034613C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B017E22C8EF0020034613C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00C9C42F6790DA988E0E692A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoWagerqueSlotinnovateNo/Pods-YoWagerqueSlotinnovateNo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoWagerqueSlotinnovateNo/Pods-YoWagerqueSlotinnovateNo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YoWagerqueSlotinnovateNo/Pods-YoWagerqueSlotinnovateNo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84C4F50A0147AF4D56212DA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoWagerqueSlotinnovateNo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8FFFF708F5BE346588FE8BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoWagerqueSlotinnovateNo/Pods-YoWagerqueSlotinnovateNo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoWagerqueSlotinnovateNo/Pods-YoWagerqueSlotinnovateNo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YoWagerqueSlotinnovateNo/Pods-YoWagerqueSlotinnovateNo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6B017BB2C8EF0000034613C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B017FA2C8EF1570034613C /* Extention.swift in Sources */,
+				C6B0180D2C8EF2D60034613C /* YoWagerqueSLTVCViewController.swift in Sources */,
+				FF9B85862C94303E00304C66 /* UIViewController+Extentsion.m in Sources */,
+				FF9B857D2C942FB600304C66 /* YoWagerquePVVVCViewController.m in Sources */,
+				FF9B858F2C9433CD00304C66 /* YoWagerqueGameHallViewController.swift in Sources */,
+				C6B017C42C8EF0000034613C /* AppDelegate.m in Sources */,
+				FF9B858D2C94328900304C66 /* YoWagerqueHomeViewController.swift in Sources */,
+				FF9B857A2C942E4A00304C66 /* YoWagerqueNavigationController.m in Sources */,
+				C6B018012C8EF1E60034613C /* YoWagerqueSnakeGaViewController.swift in Sources */,
+				C6B018092C8EF2190034613C /* YoWagerqueStVCViewController.swift in Sources */,
+				FF9B85892C94303E00304C66 /* YonoNetReachManager.m in Sources */,
+				C6B018052C8EF2010034613C /* YoWagerqueABVCViewController.swift in Sources */,
+				FF9B85872C94303E00304C66 /* YonoAdsBannerManagers.m in Sources */,
+				C6B018072C8EF20B0034613C /* YoWagerqueFBBKBCViewController.swift in Sources */,
+				C6B018032C8EF1F40034613C /* YoWagerqueSGmaeViewController.swift in Sources */,
+				C6B017D52C8EF0020034613C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B017D62C8EF0020034613C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B017DF2C8EF0020034613C /* YoWagerqueSlotinnovateNoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B017E02C8EF0020034613C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B017EB2C8EF0020034613C /* YoWagerqueSlotinnovateNoUITestsLaunchTests.m in Sources */,
+				C6B017E92C8EF0020034613C /* YoWagerqueSlotinnovateNoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6B017DC2C8EF0020034613C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B017BE2C8EF0000034613C /* YoWagerqueSlotinnovateNo */;
+			targetProxy = C6B017DB2C8EF0020034613C /* PBXContainerItemProxy */;
+		};
+		C6B017E62C8EF0020034613C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6B017BE2C8EF0000034613C /* YoWagerqueSlotinnovateNo */;
+			targetProxy = C6B017E52C8EF0020034613C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6B017CB2C8EF0000034613C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B017CC2C8EF0000034613C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6B017D02C8EF0020034613C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6B017D12C8EF0020034613C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6B017EC2C8EF0020034613C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6B017ED2C8EF0020034613C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6B017EF2C8EF0020034613C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B9AEDD32D62E56154A31E2 /* Pods-YoWagerqueSlotinnovateNo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YoWagerqueSlotinnovateNo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Yo Wagerque Slot innovate No";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The App needs to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The App needs access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The App needs access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "The App needs to obtain your device information for analysis and to bring you a unique gaming experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YoWagerque.YoWagerqueSlotinnovateNo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YoWagerqueSlotinnovateNo/YoWagerqueSlotinnovateNo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C6B017F02C8EF0020034613C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5416771D19356B1167B74B2B /* Pods-YoWagerqueSlotinnovateNo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YoWagerqueSlotinnovateNo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Yo Wagerque Slot innovate No";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The App needs to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "The App needs access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The App needs access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "The App needs to obtain your device information for analysis and to bring you a unique gaming experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YoWagerque.YoWagerqueSlotinnovateNo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "YoWagerqueSlotinnovateNo/YoWagerqueSlotinnovateNo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C6B017F22C8EF0020034613C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YoWagerque.YoWagerqueSlotinnovateNoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoWagerqueSlotinnovateNo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YoWagerqueSlotinnovateNo";
+			};
+			name = Debug;
+		};
+		C6B017F32C8EF0020034613C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YoWagerque.YoWagerqueSlotinnovateNoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoWagerqueSlotinnovateNo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YoWagerqueSlotinnovateNo";
+			};
+			name = Release;
+		};
+		C6B017F52C8EF0020034613C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YoWagerque.YoWagerqueSlotinnovateNoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YoWagerqueSlotinnovateNo;
+			};
+			name = Debug;
+		};
+		C6B017F62C8EF0020034613C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YoWagerque.YoWagerqueSlotinnovateNoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YoWagerqueSlotinnovateNo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6B017BA2C8EF0000034613C /* Build configuration list for PBXProject "YoWagerqueSlotinnovateNo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B017EC2C8EF0020034613C /* Debug */,
+				C6B017ED2C8EF0020034613C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B017EE2C8EF0020034613C /* Build configuration list for PBXNativeTarget "YoWagerqueSlotinnovateNo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B017EF2C8EF0020034613C /* Debug */,
+				C6B017F02C8EF0020034613C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B017F12C8EF0020034613C /* Build configuration list for PBXNativeTarget "YoWagerqueSlotinnovateNoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B017F22C8EF0020034613C /* Debug */,
+				C6B017F32C8EF0020034613C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B017F42C8EF0020034613C /* Build configuration list for PBXNativeTarget "YoWagerqueSlotinnovateNoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B017F52C8EF0020034613C /* Debug */,
+				C6B017F62C8EF0020034613C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6B017B72C8EF0000034613C /* Project object */;
+}
